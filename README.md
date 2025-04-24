@@ -1,23 +1,12 @@
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# Redux Authentication Flow
+Currently, two official plugins are available:
 
-This is a simple React app demonstrating **user authentication** with **Redux Toolkit** for state management, including **protected routes** and **login functionality** using the DummyJSON API.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Features
-- **Login System:** Uses Redux to manage user authentication.
-- **Protected Routes:** Protects routes with Redux state for secure access.
-- **Async Logic:** Uses Redux's `createAsyncThunk` for handling login requests and API calls.
-- **Persistent Login:** Saves user authentication info in the Redux store and localStorage for persistence.
+## Expanding the ESLint configuration
 
-## Tech Stack
-- **React.js** for the frontend
-- **Redux Toolkit** for state management
-- **React Router** for routing
-- **DummyJSON API** for simulating real-world login functionality
-
-
-### Installation
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/redux-auth-flow.git
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
